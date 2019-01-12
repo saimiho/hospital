@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+.wrap {
+  overflow: hidden;
+}
+
+body {
+  color: gray;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background-color: #f7fcfe;
+  min-width: 1024px;
+}
+
+/***************************************************************/
+.header {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/wallTP3.png);
+
+}
+
+.header .header-logo {
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.header .header-logo img {
+  width: 200px;
+  height: 200px;
+}
+
+.header .header-number {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  float: left;
+  margin-left: 500px;
+  font-size: 15px;
+  color: dimgray;
+}
+
+.header .header-button {
+  width: 150px;
+  height: 100px;
+  float: right;
+  margin-right: 100px;
+}
+
+.header .header-button a {
+  width: 200px;
+  height: 70px;
+  text-decoration: none;
+}
+
+.header-button .btn {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #8BA7D5;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/***************************************************************/
+main {
+  width: 100%;
+  height: 1450px;
+}
+
+main .box {
+  width: 100%;
+  height: 1450px;
+}
+
+/***************************************************************/
+/***************************************************************/
+.box .content {
+  width: 100%;
+  height: 50px;
+}
+
+.content .nav {
+  width: 100%;
+  height: 50px;
+  margin-left: 80px;
+}
+
+.content .nav ul {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.content .nav li {
+  float: left;
+  margin-left: 150px;
+  font-size: 30px;
+  list-style: none;
+  color: gray;
+}
+
+.content .nav li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.content .nav li a:hover {
+  text-decoration: none;
+  color: #3261AB;
+}
+
+/********************************/
+.box .content-left {
+  width: 65%;
+  height: 1350px;
+  float: left;
+}
+
+.content-left .content-left-box {
+  width: 80%;
+  height: 150px;
+  margin-left: 80px;
+}
+
+.content-left-box .content-head {
+  width: 100%;
+  height: 50px;
+}
+
+.content-left-box .content-head h3 {
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 2px solid;
+  border-color: #D5E0F1;
+}
+
+.content-left-box .content-head-text h4 {
+  font-size: 15px;
+  text-align: center;
+}
+
+/********************************************/
+.content-left .content-left-detail {
+  width: 100%;
+  height: 600px;
+}
+
+.content-left-detail .detail-text {
+  width: 100%;
+  height: 600px;
+}
+
+.detail-text .detail {
+  width: 100%;
+  height: 80px;
+}
+
+.detail-text .detail h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.detail-text .Reservation {
+  width: 100%;
+  height: 650px;
+}
+
+.Reservation .step {
+  width: 30%;
+  height: 700px;
+  border: 1px solid;
+  float: left;
+  margin-left: 25px;
+}
+
+.Reservation .step h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Reservation .step dt {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Reservation .step a {
+  font-size: 20px;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+/*******************************/
+
+
+
+.detail-text .Reservation1 {
+  width: 100%;
+  height: 400px;
+}
+
+.Reservation1 .step1 {
+  width: 30%;
+  height: 570px;
+  border: 1px solid;
+  float: left;
+  margin-left: 25px;
+}
+
+.Reservation1 .step1 h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Reservation1 .step1 dt {
+  font-size: 20px;
+  text-align: center;
+}
+
+/****************************************/
+/******************************************/
+.box .content-right {
+  width: 34%;
+  height: 550px;
+  float: right;
+  margin-top: 30px;
+}
+
+.content-right .content-right-box {
+  width: 100%;
+  height: 200px;
+}
+
+
+.content-right .content-right-box img {
+  width: 128px;
+  height: 128px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.content-right .content-right-box h3 {
+  font-size: 35px;
+  text-align: center;
+  width: 200px;
+  margin-left: 160px;
+  margin-top: -5px;
+}
+
+.content-right .content-right-box a {
+  text-decoration: none;
+  color: gray;
+}
+
+.content-right .content-right-text {
+  width: 100%;
+  height: 180px;
+}
+
+.content-right-text .content-text-detail {
+  width: 100%;
+  height: 60px;
+}
+
+.content-right-text .content-text-detail h3 {
+  font-size: 28px;
+  text-align: center;
+  width: 60%;
+  margin-left: 130px;
+}
+
+.content-right-text .content-text-detail a {
+  text-decoration: none;
+  color: gray;
+}
+
+/******************************************/

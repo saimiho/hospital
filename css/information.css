@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: gray;
+  font-size: 1.2rem;
+  background-color: #f7fcfe;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+/***************************************************************/
+.header {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/wallTP3.png);
+
+}
+
+.header .header-logo {
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.header .header-logo img {
+  width: 200px;
+  height: 200px;
+}
+
+.header .header-number {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  float: left;
+  margin-left: 500px;
+  font-size: 15px;
+  color: dimgray;
+}
+
+.header .header-button {
+  width: 150px;
+  height: 100px;
+  float: right;
+  margin-right: 100px;
+}
+
+.header .header-button a {
+  width: 200px;
+  height: 70px;
+  text-decoration: none;
+}
+
+.header-button .btn {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #8BA7D5;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/***************************************************************/
+main {
+  width: 100%;
+  height: 1100px;
+}
+
+main .box {
+  width: 100%;
+  height: 1100px;
+}
+
+/***************************************************************/
+.box .content-a {
+  width: 100%;
+  height: 50px;
+}
+
+.content-a .nav {
+  width: 90%;
+  height: 50px;
+  margin-left: 80px;
+}
+
+.content-a .nav ul {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.content-a .nav li {
+  float: left;
+  margin-left: 150px;
+  font-size: 30px;
+  list-style: none;
+  color: gray;
+}
+
+.content-a .nav li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.content-a .nav li a:hover {
+  text-decoration: none;
+  color: #3261AB;
+}
+
+/***************************************************************/
+.box .content-b {
+  width: 100%;
+  height: 300px;
+}
+
+.content-b .text-a {
+  width: 100%;
+  height: 300px;
+}
+
+.content-b .text-a h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.content-b .text-a h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/***************************************************************/
+.box .content-c {
+  width: 100%;
+  height: 500px;
+}
+
+.content-c .text-a {
+  width: 100%;
+  height: 500px;
+}
+
+.content-c .text-a h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.content-c .text-a h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+/***************************************************************/
+.box .content-d {
+  width: 100%;
+  height: 430px;
+}
+
+.content-d .text-a {
+  width: 100%;
+  height: 430px;
+}
+
+.content-d .text-a h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.content-d .text-a h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+/***************************************************************/
+.footer {
+  width: 100%;
+  height: 430px;
+  border: dashed 2px;
+  border-color: gainsboro;
+  border-radius: 8px;
+}
+
+.footer .footerbox {
+  width: 25%;
+  height: 400px;
+  float: left;
+}
+
+.footerbox .footer-logo {
+  width: 80%;
+  height: 200px;
+}
+
+.footerbox .footer-logo img {
+  margin-left: 100px;
+}
+
+.footerbox .footer-detail {
+  width: 320px;
+  height: 200px;
+}
+
+.footerbox .footer-detail h3 {
+  font-size: 30px;
+  text-align: center;
+  width: 350px;
+}
+
+.footerbox .footer-detail h4 {
+  font-size: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+/*******************************/
+.footer .footer-smallbox {
+  width: 980px;
+  height: 400px;
+  float: right;
+  margin-right: 40px;
+}
+
+.footer-smallbox .detailbox {
+  width: 320px;
+  height: 430px;
+  float: left;
+  margin: 3px;
+}
+
+.footer-smallbox .detailbox h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer-smallbox .detailbox table {
+  text-align: center;
+}
+
+th {
+  font-size: 15px;
+  padding: 5px;
+}
+
+td {
+  font-size: 20px;
+  padding: 5px;
+}
+
+footer-smallbox .detailbox h4 {
+  font-size: 15px;
+  text-align: justify;
+}

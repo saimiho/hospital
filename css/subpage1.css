@@ -73,12 +73,12 @@ body {
 /***************************************************************/
 main {
   width: 100%;
-  height: 1450px;
+  height: 1750px;
 }
 
 main .box {
   width: 100%;
-  height: 1550px;
+  height: 1750px;
 }
 
 /***************************************************************/
@@ -105,12 +105,16 @@ main .box {
   margin-left: 150px;
   font-size: 30px;
   list-style: none;
-  color: gray;
+  background-color: lightgray;
+  color: white;
+  border-bottom: 2px solid;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 .content .nav li a {
   text-decoration: none;
-  color: gray;
+  color: white;
 }
 
 .content .nav li a:hover {
@@ -121,7 +125,7 @@ main .box {
 /********************************/
 .box .content-left {
   width: 65%;
-  height: 1350px;
+  height: 1650px;
   float: left;
 }
 
@@ -204,7 +208,7 @@ main .box {
 
 .detail-text .Reservation1 {
   width: 100%;
-  height: 400px;
+  height: 600px;
 }
 
 .Reservation1 .step1 {
@@ -283,3 +287,82 @@ main .box {
 }
 
 /******************************************/
+/***************************************************************/
+.footer {
+  width: 100%;
+  height: 430px;
+  border: dashed 2px;
+  border-color: gainsboro;
+  border-radius: 8px;
+}
+
+.footer .footerbox {
+  width: 25%;
+  height: 400px;
+  float: left;
+}
+
+.footerbox .footer-logo {
+  width: 80%;
+  height: 200px;
+}
+
+.footerbox .footer-logo img {
+  margin-left: 100px;
+}
+
+.footerbox .footer-detail {
+  width: 320px;
+  height: 200px;
+}
+
+.footerbox .footer-detail h3 {
+  font-size: 30px;
+  text-align: center;
+  width: 350px;
+}
+
+.footerbox .footer-detail h4 {
+  font-size: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+/*******************************/
+.footer .footer-smallbox {
+  width: 980px;
+  height: 400px;
+  float: right;
+  margin-right: 40px;
+}
+
+.footer-smallbox .detailbox {
+  width: 320px;
+  height: 430px;
+  float: left;
+  margin: 3px;
+}
+
+.footer-smallbox .detailbox h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer-smallbox .detailbox table {
+  text-align: center;
+}
+
+th {
+  font-size: 15px;
+  padding: 5px;
+}
+
+td {
+  font-size: 20px;
+  padding: 5px;
+}
+
+footer-smallbox .detailbox h4 {
+  font-size: 15px;
+  text-align: justify;
+}

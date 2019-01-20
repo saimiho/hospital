@@ -99,12 +99,16 @@ main .box {
   margin-left: 150px;
   font-size: 30px;
   list-style: none;
-  color: gray;
+  background-color: lightgray;
+  color: white;
+  border-bottom: 2px solid;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 .content-a .nav li a {
   text-decoration: none;
-  color: gray;
+  color: white;
 }
 
 .content-a .nav li a:hover {
@@ -115,7 +119,7 @@ main .box {
 /***************************************************************/
 .box .content-b {
   width: 100%;
-  height: 300px;
+  height: 350px;
 }
 
 .content-b .text-a {
@@ -124,54 +128,71 @@ main .box {
 }
 
 .content-b .text-a h3 {
-  font-size: 30px;
+  width: 400px;
+  margin-left: 530px;
+  font-size: 50px;
   text-align: center;
+  border-bottom: 2px solid;
 }
 
 .content-b .text-a h4 {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 
+.text-a .large {
+  font-size: 30px;
+  text-align: center;
+}
 
 /***************************************************************/
 .box .content-c {
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .content-c .text-a {
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .content-c .text-a h3 {
-  font-size: 30px;
+  width: 500px;
+  margin-left: 480px;
+  font-size: 50px;
   text-align: center;
+  border-bottom: 2px solid;
 }
 
 
 .content-c .text-a h4 {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 
+.text-a .large {
+  font-size: 30px;
+  text-align: center;
+}
 
 
 /***************************************************************/
 .box .content-d {
   width: 100%;
-  height: 430px;
+  height: 500px;
 }
 
 .content-d .text-a {
   width: 100%;
-  height: 430px;
+  height: 500px;
 }
 
 .content-d .text-a h3 {
-  font-size: 30px;
+  width: 500px;
+  margin-left: 480px;
+  font-size: 50px;
   text-align: center;
+  border-bottom: 2px solid;
 }
 
 .content-d .text-a h4 {
